@@ -1,0 +1,17 @@
+{
+    "name": "Correspond",
+    "version": "1",
+    "namespace": "http://github.com/XXXXXXXXXXX",
+    "homepage": "http://github.com/XXXXXXXXXXX",
+    "homepageURL": "http://github.com/XXXXXXXXXXX",
+    "supportURL": "http://github.com/XXXXXXXXXXX",
+    "updateURL": "http://github.com/XXXXXXXXXXX",
+    "description": "Format and copy SMS correspondence from messages.google.com",
+    "author": "Werner Sævland",
+    "license": "GNU GPL3",
+    "match": "*://messages.google.com/*",
+    "grant": [
+      "GM_setValue",
+      "GM_getValue"
+    ]
+  }
