@@ -1,6 +1,9 @@
 # .gitignore file from:
 # https://github.com/github/gitignore/blob/master/Node.gitignore
 
+# Proxy script for local debugging
+*.proxy.user.js
+
 # Logs
 logs
 *.log
