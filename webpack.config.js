@@ -60,8 +60,5 @@ module.exports = {
         enable: true
       }
     })
-  ],
-  node: {
-    fs: 'empty'
-  }
+  ]
 };
