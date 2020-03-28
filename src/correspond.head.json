@@ -5,7 +5,7 @@
     "homepage": "http://github.com/XXXXXXXXXXX",
     "homepageURL": "http://github.com/XXXXXXXXXXX",
     "supportURL": "http://github.com/XXXXXXXXXXX",
-    "updateURL": "http://github.com/XXXXXXXXXXX",
+    "updateURL": "https://github.com/wernersa/userscripts/raw/master/dist/correspond.user.js",
     "description": "Format and copy SMS correspondence from messages.google.com",
     "author": "Werner Sævland",
     "license": "GNU GPL3",

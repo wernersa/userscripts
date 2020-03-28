@@ -1,5 +1,3 @@
-import { el, mount } from "redom"; // https://redom.js.org
-import "alpinejs"; // https://github.com/alpinejs/alpine
 import "arrive"; // https://github.com/uzairfarooq/arrive
 
 (function() {
