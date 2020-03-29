@@ -1,13 +1,11 @@
 // ==UserScript==
 // @name        Correspond
-// @version     1.0.2.0-build.1
+// @version     1.0.3.0
 // @author      Werner Sævland
 // @description Format and copy SMS correspondence from messages.google.com
 // @homepage    https://github.com/wernersa/userscripts
 // @supportURL  https://github.com/wernersa/userscripts
 // @match       *://messages.google.com/*
-// @namespace   https://github.com/wernersa/userscripts
-// @homepageURL https://github.com/wernersa/userscripts
 // @updateURL   https://github.com/wernersa/userscripts/raw/master/dist/correspond.user.js
 // @license     GNU GPL3
 // @grant       GM_setValue

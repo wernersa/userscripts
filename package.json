@@ -1,8 +1,12 @@
 {
-  "name": "correspond",
-  "version": "0.2.0",
+  "name": "userscript",
+  "version": "0.3.0",
   "description": "A repository of my personal userscipts",
-  "main": "correspond.user.js",
+  "namespace": "https://github.com/wernersa/userscripts",
+  "homepage": "https://github.com/wernersa/userscripts",
+  "bugs": {
+    "url": "https://github.com/wernersa/userscripts"
+  },
   "dependencies": {
     "arrive": "^2.4.1",
     "webpack": "^4.42.0",

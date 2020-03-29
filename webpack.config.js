@@ -38,20 +38,12 @@ module.exports = {
   plugins: [
     new WebpackUserscript({
       metajs: false,
-      headers({ name, version }) {
-        head = loadHeaderFile(
-          path.join(__dirname, "src", name.concat(".head.json")),
-          new Set()
-        );
-        update = {
-          version: String(head.version) + ".[version]-build.[buildNo]"
-        };
-        for (var attrname in update) {
-          head[attrname] = update[attrname];
-        }
-        return {
-          ...head
-        };
+      headers:{}, // Get the package.json variables first
+      headers({ basename }) {
+        head = loadHeaderFile(path.join(__dirname, "src", basename + ".head.json"), new Set());
+        update = {version: String(head.version) + ".[version]"};
+        for (var attrname in update) { head[attrname] = update[attrname]; }
+        return { ...head };
       },
       pretty: true,
       proxyScript: {
