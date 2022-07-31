@@ -31,9 +31,9 @@ import "arrive"; // https://github.com/uzairfarooq/arrive
       
       // Add message author:
       if (outgoing) {
-        var author_text = "SMS fra <b>u.t.</b>"
+        var author_text = "SMS from <b>self.</b>"
       } else {
-        var author_text = "SMS fra <b>pas.</b>"
+        var author_text = "SMS from <b>other.</b>"
       }
 
       var result_text = time_text + " - " + author_text + "</br>" + aria_text + "</br></br>";

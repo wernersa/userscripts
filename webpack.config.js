@@ -26,14 +26,13 @@ module.exports = {
     filename: "[name].user.js"
   },
   devServer: {
-    host: 'localhost',
+    host: '127.0.0.1',
     port: 8080,
-    disableHostCheck: true, // process.env.NODE_ENV === 'development'
-    https: true,
+    https: false,
     headers: {
       'Access-Control-Allow-Origin': '*'
     },
-    contentBase: path.join(__dirname, 'dist')
+    static: path.join(__dirname, 'dist')
   },
   plugins: [
     new WebpackUserscript({
@@ -47,7 +46,7 @@ module.exports = {
       },
       pretty: true,
       proxyScript: {
-        baseUrl: 'https://localhost:8080/',
+        baseUrl: 'http://127.0.0.1:8080',
         filename: '[basename].proxy.user.js',
         enable: true
       }
